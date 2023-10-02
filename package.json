@@ -10,7 +10,8 @@
   "description": "latihan express",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "start": "node index.js"
   },
   "author": "angga",
   "license": "ISC",
