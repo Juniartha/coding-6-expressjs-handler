@@ -1,7 +1,7 @@
 // import library express js
 const express = require('express');
 const app = express(); // call function express
-const port = 3000; // define port varaibel
+// const port = 3000; // define port varaibel
 const Sequelize = require('sequelize');
 
 // import bodyparser
@@ -83,7 +83,7 @@ app.get('/api/customers/:id', (req, res) => {
     })
 });
 
-
+process.env.PORT || 3000;
 // app listening on port 3000
 app.listen(3000, () => {
     console.log(`app is listening on ${port}`);
